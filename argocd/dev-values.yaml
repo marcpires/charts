@@ -2,4 +2,6 @@ project:
   name: argocd
   description: "ArgoCD project"
   namespace: "argocd"
-  cluster: "https://kubernetes.default.svc"
+  destination:
+    namespace: "argcd"
+    cluster: "https://kubernetes.default.svc"
