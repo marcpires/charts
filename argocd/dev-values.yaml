@@ -1,7 +1,0 @@
-project:
-  name: argocd
-  description: "ArgoCD project"
-  namespace: "argocd"
-  destination:
-    namespace: "argcd"
-    cluster: "https://kubernetes.default.svc"
