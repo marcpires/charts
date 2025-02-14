@@ -1,0 +1,23 @@
+namespaceOverride: monitoring
+namespace: monitoring
+# Gateway API config
+#
+# route:
+#  main:
+#    enabled: true
+#    hostnames: []
+#    parentRefs: []
+#    matches:
+#      - path:
+#          type: PathPrefix
+#          value: /
+persistence:
+  enabled: true
+  size: 8Gi
+resources:
+  requests:
+    memory: "512Mi"
+    cpu: "700m"
+  limits:
+    memory: "1Gi"
+    cpu: "1"
